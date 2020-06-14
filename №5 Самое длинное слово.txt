@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+	string max = "", line, buf;
+	int i, l;
+	ifstream file("input.txt");
+	while (!file.eof()) {
+		file >> line;
+		line += " ";
+		for (i = 0, l = line.length(); i < l; i++) {
+			if (tolower(line[i]) >= 'a' && tolower(line[i]) <= 'z')
+				buf += line[i];
+			else {
+				if (max.length() < buf.length())
+					max = buf;
+				buf.clear();
+			}
+		}
+	}
+	cout << max << endl;
+	return 0;
+}
