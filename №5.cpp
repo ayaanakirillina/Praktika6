@@ -1,4 +1,4 @@
-//Íàéòè ñàìîå äëèííîå ñëîâî
+////Найти самое длинное слово
 #include <iostream>
 #include <string>
 #include <fstream>
