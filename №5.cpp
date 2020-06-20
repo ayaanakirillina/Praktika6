@@ -1,4 +1,4 @@
-//Найти самое длинное слово
+//ГЌГ Г©ГІГЁ Г±Г Г¬Г®ГҐ Г¤Г«ГЁГ­Г­Г®ГҐ Г±Г«Г®ГўГ®
 #include <iostream>
 #include <string>
 #include <fstream>
